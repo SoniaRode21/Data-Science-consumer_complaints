@@ -92,16 +92,17 @@ def main():
     # Read command line arguments
     input_file = str(sys.argv[1])
     output_file = sys.argv[2]
+    output_file="report.csv"
 
     # Read data from file
     result = read_file(input_file)
 
-    print('\n')
+    #print('\n')
     # Get a hashmap containing products as keys and their complaints as values
     hashmap = get_hashmap(result)
-    print("PART 1\n")
+    #print("PART 1\n")
     hashmap = get_sorted_hashmap(hashmap)
-    print("PART 2\n")
+    #print("PART 2\n")
     #print(hashmap)
 
 
