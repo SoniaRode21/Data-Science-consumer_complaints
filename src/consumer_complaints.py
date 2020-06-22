@@ -92,7 +92,7 @@ def main():
     # Read command line arguments
     input_file = str(sys.argv[1])
     output_file = sys.argv[2]
-    output_file="report.csv"
+    #output_file="report.csv"
 
     # Read data from file
     result = read_file(input_file)
