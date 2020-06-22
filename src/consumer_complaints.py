@@ -34,7 +34,7 @@ def write_to_file(filename,hashmap):
     """
     import csv
 
-    writer=csv.writer(open(filename, 'w', newline=''), delimiter=',',quotechar='"')
+    writer=csv.writer(open(filename, 'w'), delimiter=',',quotechar='"')
     for product in sorted(hashmap.keys()):
         years_list=list(val[0]  for val in hashmap[product])
         years=list(set(years_list))
@@ -108,7 +108,7 @@ def main():
 
 
     write_to_file(output_file,hashmap)
-    print("PART 3\n")
+    #print("PART 3\n")
 
 
 if __name__ == '__main__' :
