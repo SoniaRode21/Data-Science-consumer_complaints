@@ -1,5 +1,5 @@
 # Data Science consumer_complaints
-Given the consumer complaints data, task is to identify the number of complaints filed and how they're spread across different companies.
+Given the consumer complaints data, task is to identify the number of complaints filed and how they're spread across different companies. https://github.com/InsightDataScience/consumer_complaints
 
 ## Dataset
 Consumer.csv (Smaller version uploaded): Consult the Consumer Finance Protection Bureau's technical documentation for a description of each field.
